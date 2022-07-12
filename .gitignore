@@ -1,0 +1,6 @@
+# nix
+.envrc
+.direnv
+
+# deno
+deno.json
