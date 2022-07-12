@@ -7,7 +7,7 @@ interface Args {
   password?: string;
 }
 
-export default class MoneroDaemonRPC {
+export class MoneroDaemonRPC {
   url: string;
   auth: boolean = false;
   client?: DigestClient;

@@ -7,7 +7,7 @@ interface Args {
   password?: string;
 }
 
-export default class BaseClient {
+export class BaseClient {
   url: string;
   auth: boolean = false;
   client?: DigestClient;

@@ -10,8 +10,8 @@ You can also view the documentaton [here](https://doc.deno.land/https://deno.lan
 ## Example
 
 ```typescript
-import MoneroDaemonRPC from "https://deno.land/x/monero_rpc/mod.ts";
-import MoneroWalletRPC from "https://deno.land/x/monero_rpc/mod.ts";
+import { MoneroDaemonRPC } from "https://deno.land/x/monero_rpc/mod.ts";
+import { MoneroWalletRPC } from "https://deno.land/x/monero_rpc/mod.ts";
 
 const daemon = new MoneroDaemonRPC({
   host: "localhost",
