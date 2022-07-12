@@ -25,8 +25,6 @@ export default class MoneroWalletRPC {
       ) => [(paramNames[i] === "should_be_in") ? "in" : paramNames[i], v]),
     );
 
-    console.log(params);
-
     const headers = new Headers({
       "Content-Type": "application/json",
     });

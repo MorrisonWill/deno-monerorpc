@@ -48,8 +48,6 @@ for (const list of [DaemonList, WalletList]) {
 
     params = params.map((param) => param.replace("?", ""));
 
-    console.log(paramObject);
-
     // convert paramNames to a list of strings
     const paramNames = params.map((param) => `"${param}"`);
 
