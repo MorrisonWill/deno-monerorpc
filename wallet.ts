@@ -839,10 +839,3 @@ export class MoneroWalletRPC {
     return this.request("get_version", [], []);
   }
 }
-
-const wallet = new MoneroWalletRPC({
-  host: "localhost",
-  port: 28088,
-});
-
-console.log(await wallet.get_transfer_by_txid("sdfklj"));
