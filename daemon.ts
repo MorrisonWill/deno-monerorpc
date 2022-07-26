@@ -47,7 +47,7 @@ export class MoneroDaemonRPC {
 
     const json = await response.json();
 
-    if (response.status === 200) {
+    if (!json.error) {
       return json.result;
     }
 
